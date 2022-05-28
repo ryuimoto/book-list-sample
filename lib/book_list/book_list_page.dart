@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 
 class BookListPage extends StatelessWidget {
-  final Stream<QuerySnapshot> _usersStream =
-    FirebaseFirestore.instance.collection('books').snapshots();
 
   @override
   Widget build(BuildContext context) {
