@@ -32,7 +32,6 @@ class BookListPage extends StatelessWidget {
             );
           }),
         ),
-
       ),
     );
   }
